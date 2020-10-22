@@ -24,7 +24,7 @@ public class ArrayStuff {
         ages[0] = input.nextInt();
 
         // Change the last element of "ages" to be the first element squared
-        ages[17] = 0 * 2;
+        ages[17] = ages[0] * 2;
 
         // Print all of the elements of "ages", one per line
         System.out.println(ages[0]);
@@ -45,15 +45,22 @@ public class ArrayStuff {
         // Print the first letter of the 7th planet from the sun
         System.out.println(planets[6]);
 
-        // TODO: Change the name of our planet to be a line of text that the user inputs
+        // Change the name of our planet to be a word that the user inputs
         System.err.println("What do you want to rename Earth to be?");
+        planets [2] = input.next();
 
-
-        // TODO: Replace the first planet with the planet at index 2, but with all
+        // Replace the first planet with the planet at index 2, but with all
         // upper case letters.
-
+        planets[0] = planets[2].toUpperCase();
 
         // TODO: Print all of the elements of "planets" in reverse order.
-
+        System.out.println(planets[7]);
+        System.out.println(planets[6]);
+        System.out.println(planets[5]);
+        System.out.println(planets[4]);
+        System.out.println(planets[3]);
+        System.out.println(planets[2]);
+        System.out.println(planets[1]);
+        System.out.println(planets[0]);
     }
 }

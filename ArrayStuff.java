@@ -17,14 +17,14 @@ public class ArrayStuff {
         int [] ages = new int [5];
 
         // Change the 3rd element of "ages" to be 18
-        ages[3] = 18;
+        ages[2] = 18;
 
         // Change the first element of "ages" to be an integer entered by the user
         System.err.println("Enter an integer:");
         ages[0] = input.nextInt();
 
         // Change the last element of "ages" to be the first element squared
-        ages[17] = ages[0] * 2;
+        ages[4] = ages[0] * 2;
 
         // Print all of the elements of "ages", one per line
         System.out.println(ages[0]);
@@ -43,7 +43,7 @@ public class ArrayStuff {
         String [] planets = {"Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"};
 
         // Print the first letter of the 7th planet from the sun
-        System.out.println(planets[6]);
+        System.out.println(planets[6].charAt(0));
 
         // Change the name of our planet to be a word that the user inputs
         System.err.println("What do you want to rename Earth to be?");
@@ -53,7 +53,7 @@ public class ArrayStuff {
         // upper case letters.
         planets[0] = planets[2].toUpperCase();
 
-        // TODO: Print all of the elements of "planets" in reverse order.
+        // Print all of the elements of "planets" in reverse order.
         System.out.println(planets[7]);
         System.out.println(planets[6]);
         System.out.println(planets[5]);

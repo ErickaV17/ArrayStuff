@@ -32,7 +32,7 @@ public class ArrayStuff {
         System.out.println(ages[2]);
         System.out.println(ages[3]);
         System.out.println(ages[4]);
-        System.out.println(ages[5]);
+        
 
 
         // PART B

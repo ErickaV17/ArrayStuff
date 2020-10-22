@@ -24,7 +24,7 @@ public class ArrayStuff {
         ages[0] = input.nextInt();
 
         // Change the last element of "ages" to be the first element squared
-        ages[4] = ages[0] * 2;
+        ages[4] = (int) Math.pow(ages[0], 2);
 
         // Print all of the elements of "ages", one per line
         System.out.println(ages[0]);
@@ -33,7 +33,6 @@ public class ArrayStuff {
         System.out.println(ages[3]);
         System.out.println(ages[4]);
         
-
 
         // PART B
 
